@@ -67,7 +67,7 @@ for(let i = 0; i < teamMembersArray.length; i++) {
     for (let chiave in teamMembers) {
         console.log(chiave, teamMembers[chiave]);
 
-        infoTeam.innerHTML += teamMembers[chiave];
+        infoTeam.innerHTML += chiave + " = " + teamMembers[chiave];
     }
 }
 
