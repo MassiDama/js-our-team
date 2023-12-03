@@ -57,6 +57,8 @@ for (let chiave in teamMembersArray) {
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sotto forma di stringhe
 
+console.log('Milestone 2'); 
+
 const infoTeam = document.querySelector(".container");
 
 
@@ -67,7 +69,7 @@ for(let i = 0; i < teamMembersArray.length; i++) {
     for (let chiave in teamMembers) {
         console.log(chiave, teamMembers[chiave]);
 
-        infoTeam.innerHTML += chiave + " = " + teamMembers[chiave];
+        infoTeam.innerHTML += chiave + " = " + teamMembers[chiave] + "<br>";
     }
 }
 
