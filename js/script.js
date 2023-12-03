@@ -53,7 +53,6 @@ for (let chiave in teamMembersArray) {
     console.log(chiave, teamMembersArray[chiave]);
 }
 
-
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sotto forma di stringhe
 
